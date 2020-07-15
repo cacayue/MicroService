@@ -1,0 +1,12 @@
+﻿{
+    "profiles": {
+        "Project.API": {
+            "commandName": "Project",
+            "launchBrowser": true,
+            "applicationUrl": "http://192.168.1.4:8870",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        }
+    }
+}

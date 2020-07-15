@@ -1,0 +1,9 @@
+F:\exercise\DoNetCore\MicroService\Docker\Project\Project.Domain\bin\Debug\netcoreapp3.1\Project.Domain.deps.json
+F:\exercise\DoNetCore\MicroService\Docker\Project\Project.Domain\bin\Debug\netcoreapp3.1\Project.Domain.dll
+F:\exercise\DoNetCore\MicroService\Docker\Project\Project.Domain\obj\Debug\netcoreapp3.1\Project.Domain.AssemblyInfoInputs.cache
+F:\exercise\DoNetCore\MicroService\Docker\Project\Project.Domain\obj\Debug\netcoreapp3.1\Project.Domain.AssemblyInfo.cs
+F:\exercise\DoNetCore\MicroService\Docker\Project\Project.Domain\bin\Debug\netcoreapp3.1\Project.Domain.pdb
+F:\exercise\DoNetCore\MicroService\Docker\Project\Project.Domain\obj\Debug\netcoreapp3.1\Project.Domain.csproj.CoreCompileInputs.cache
+F:\exercise\DoNetCore\MicroService\Docker\Project\Project.Domain\obj\Debug\netcoreapp3.1\Project.Domain.dll
+F:\exercise\DoNetCore\MicroService\Docker\Project\Project.Domain\obj\Debug\netcoreapp3.1\Project.Domain.pdb
+F:\exercise\DoNetCore\MicroService\Docker\Project\Project.Domain\obj\Debug\netcoreapp3.1\Project.Domain.csprojAssemblyReference.cache

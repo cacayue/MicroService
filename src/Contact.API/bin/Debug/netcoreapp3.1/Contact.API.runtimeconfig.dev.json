@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\cacayue\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\cacayue\\.nuget\\packages"
+    ]
+  }
+}

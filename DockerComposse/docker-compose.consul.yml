@@ -1,0 +1,37 @@
+version: '3.6'
+services:
+  consul1:
+    image: consul:latest
+    container_name: consul1
+    restart: always
+    command: agent -server -client=0.0.0.0 -bootstrap-expect=3 -node=consul1
+    volumes:
+      - ./consul/consul1/data:/consul/data
+      - ./consul/consul1/config:/consul/config
+  consul2:
+    image: consul:latest
+    container_name: consul2
+    restart: always
+    command: agent -server -client=0.0.0.0 -retry-join=consul1 -node=consul2
+    volumes:
+      - ./consul/consul2/data:/consul/data
+      - ./consul/consul2/config:/consul/config
+  consul3:
+    image: consul:latest
+    container_name: consul3
+    restart: always
+    command: agent -server -client=0.0.0.0 -retry-join=consul1 -node=consul3
+    volumes:
+      - ./consul/consul3/data:/consul/data
+      - ./consul/consul3/config:/consul/config
+  consul4:
+    image: consul:latest
+    container_name: consul4
+    restart: always
+    ports:
+      - 8500:8500
+      - 8600:8600/udp
+    command: agent -client=0.0.0.0 -retry-join=consul1 -ui -node=client1
+    volumes:
+      - ./consul/consul4/data:/consul/data
+      - ./consul/consul4/config:/consul/config

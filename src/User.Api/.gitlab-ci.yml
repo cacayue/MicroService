@@ -1,0 +1,31 @@
+stages:
+    - build
+    - test
+    - package
+    - deploy
+    
+build:
+    stage: build
+    script:
+        - dotnet build
+
+unittest:
+    stage: test
+    script: 
+        - dotnet test
+    
+package:
+    stage: package
+    script:
+        - ls
+        - cd User.Api
+        - docker build -t userapi:test .
+        - docker login -u admin --password Harbor12345 192.168.65.171:5000
+        - docker tag userapi:test 192.168.65.171:5000/userapi/userapi:V0.0.2
+        - docker push 192.168.65.171:5000/userapi/userapi:V0.0.2
+        
+deploy: 
+    stage: deploy
+    script:
+        - docker run -p 8001:80 --name userapi -d 192.168.65.171:5000/userapi/userapi:V0.0.2
+        

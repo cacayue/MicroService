@@ -1,0 +1,9 @@
+F:\exercise\DoNetCore\MicroService\Docker\Resilience.Http\bin\Debug\netcoreapp3.1\Resilience.Http.deps.json
+F:\exercise\DoNetCore\MicroService\Docker\Resilience.Http\bin\Debug\netcoreapp3.1\Resilience.Http.dll
+F:\exercise\DoNetCore\MicroService\Docker\Resilience.Http\obj\Debug\netcoreapp3.1\Resilience.Http.AssemblyInfoInputs.cache
+F:\exercise\DoNetCore\MicroService\Docker\Resilience.Http\obj\Debug\netcoreapp3.1\Resilience.Http.AssemblyInfo.cs
+F:\exercise\DoNetCore\MicroService\Docker\Resilience.Http\obj\Debug\netcoreapp3.1\Resilience.Http.csproj.CoreCompileInputs.cache
+F:\exercise\DoNetCore\MicroService\Docker\Resilience.Http\bin\Debug\netcoreapp3.1\Resilience.Http.pdb
+F:\exercise\DoNetCore\MicroService\Docker\Resilience.Http\obj\Debug\netcoreapp3.1\Resilience.Http.dll
+F:\exercise\DoNetCore\MicroService\Docker\Resilience.Http\obj\Debug\netcoreapp3.1\Resilience.Http.pdb
+F:\exercise\DoNetCore\MicroService\Docker\Resilience.Http\obj\Debug\netcoreapp3.1\Resilience.Http.csprojAssemblyReference.cache

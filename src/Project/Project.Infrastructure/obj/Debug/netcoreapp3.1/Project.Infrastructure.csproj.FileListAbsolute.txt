@@ -1,0 +1,12 @@
+F:\exercise\DoNetCore\MicroService\Docker\Project\Project.Infrastructure\bin\Debug\netcoreapp3.1\Project.Infrastructure.deps.json
+F:\exercise\DoNetCore\MicroService\Docker\Project\Project.Infrastructure\bin\Debug\netcoreapp3.1\Project.Infrastructure.dll
+F:\exercise\DoNetCore\MicroService\Docker\Project\Project.Infrastructure\obj\Debug\netcoreapp3.1\Project.Infrastructure.AssemblyInfoInputs.cache
+F:\exercise\DoNetCore\MicroService\Docker\Project\Project.Infrastructure\obj\Debug\netcoreapp3.1\Project.Infrastructure.AssemblyInfo.cs
+F:\exercise\DoNetCore\MicroService\Docker\Project\Project.Infrastructure\obj\Debug\netcoreapp3.1\Project.Infrastructure.csprojAssemblyReference.cache
+F:\exercise\DoNetCore\MicroService\Docker\Project\Project.Infrastructure\bin\Debug\netcoreapp3.1\Project.Infrastructure.pdb
+F:\exercise\DoNetCore\MicroService\Docker\Project\Project.Infrastructure\bin\Debug\netcoreapp3.1\Project.Domain.dll
+F:\exercise\DoNetCore\MicroService\Docker\Project\Project.Infrastructure\bin\Debug\netcoreapp3.1\Project.Domain.pdb
+F:\exercise\DoNetCore\MicroService\Docker\Project\Project.Infrastructure\obj\Debug\netcoreapp3.1\Project.Infrastructure.csproj.CopyComplete
+F:\exercise\DoNetCore\MicroService\Docker\Project\Project.Infrastructure\obj\Debug\netcoreapp3.1\Project.Infrastructure.dll
+F:\exercise\DoNetCore\MicroService\Docker\Project\Project.Infrastructure\obj\Debug\netcoreapp3.1\Project.Infrastructure.pdb
+F:\exercise\DoNetCore\MicroService\Docker\Project\Project.Infrastructure\obj\Debug\netcoreapp3.1\Project.Infrastructure.csproj.CoreCompileInputs.cache
