@@ -24,6 +24,7 @@
 - Polly负责服务间调用时的服务容错
 ### 资料汇总
 - [.NET Core微服务架构学习与实践系列文章目录 - Edison Zhou](https://www.cnblogs.com/edisonchou/p/dotnetcore_microservice_foundation_blogs_index_final.html)
+- [ASP.NET Core分布式项目实战 - jesse](http://video.jessetalk.cn/course/5)
 - [ASP.NET Core 3.x 构建 RESTful API - 杨旭](https://www.bilibili.com/video/BV1XJ411q7yy)
 - [Identity Server 4杨旭](https://www.bilibili.com/video/av42364337/)
 - [Identity Server 4 Doc](https://identityserver4.readthedocs.io/en/latest/)
