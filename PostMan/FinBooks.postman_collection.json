@@ -1,0 +1,664 @@
+{
+	"info": {
+		"_postman_id": "28a78880-0927-4c1c-8c79-0e9f8756ab47",
+		"name": "FinBooks",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "获取登录用户信息",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://{{host}}/users",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "更新用户",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "[\n\t{\n\t\t\"op\":\"replace\",\n\t\t\"path\":\"/title\",\n\t\t\"value\":\"Test2\"\n\t}\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/users",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "检查或创建",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "phone",
+									"value": "17681765721",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://{{host}}/api/users/check-or-create",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"users",
+								"check-or-create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "健康检查",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://192.168.1.4:8850/HealthCheck",
+							"protocol": "http",
+							"host": [
+								"192",
+								"168",
+								"1",
+								"4"
+							],
+							"port": "8850",
+							"path": [
+								"HealthCheck"
+							]
+						},
+						"description": "http://{{host}}/HealthCheck"
+					},
+					"response": []
+				},
+				{
+					"name": "获取用户标签",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/users/tags",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"users",
+								"tags"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "更新用户标签",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "[]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/users/tags",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"users",
+								"tags"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "根据手机号搜索",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "phone",
+									"value": "17681765721",
+									"type": "text"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/users/search",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"users",
+								"search"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "IdentityService",
+			"item": [
+				{
+					"name": "获取Token",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "client_id",
+									"value": "android",
+									"type": "text"
+								},
+								{
+									"key": "client_secret",
+									"value": "secret",
+									"type": "text"
+								},
+								{
+									"key": "grant_type",
+									"value": "sms_auth_code",
+									"type": "text"
+								},
+								{
+									"key": "scope",
+									"value": "openid offline_access gateway_scope contact_scope user_scope project_scope recommend_scope",
+									"type": "text"
+								},
+								{
+									"key": "phone",
+									"value": "17681765721",
+									"type": "text"
+								},
+								{
+									"key": "auth_code",
+									"value": "121",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://{{host}}/connect/token",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"connect",
+								"token"
+							]
+						},
+						"description": "http://{{host}}/connect/token?clinet_id=android&client_secret=secret&grant_type=sms_auth_code&scopes=openid offline_access user_api"
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Gateway",
+			"item": [
+				{
+					"name": "获取登录用户信息",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://{{host}}/users",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Contact",
+			"item": [
+				{
+					"name": "获取好友列表",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://{{host}}/contacts",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"contacts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "添加好友请求",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "http://{{host}}/contacts/apply-requests/1",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"contacts",
+								"apply-requests",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "获取好友申请列表",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "http://{{host}}/contacts/apply-requests",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"contacts",
+								"apply-requests"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "通过好友请求",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "http://{{host}}/contacts/apply-requests/2",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"contacts",
+								"apply-requests",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "更新好友标签",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "bearer {{token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"ContactId\":\"2\",\r\n    \"Tags\":[\"test\",\"test2\"]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/contacts/tag",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"contacts",
+								"tag"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Project",
+			"item": [
+				{
+					"name": "获取用户下所有项目",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://{{host}}/project",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"project"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "查看自己的项目详情",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://{{host}}/project/my/2",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"project",
+								"my",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "查看推荐的项目详情",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://{{host}}/project/recommend/1",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"project",
+								"recommend",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "添加项目查看人",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "http://{{host}}/project/view/2",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"project",
+								"view",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "添加项目",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "bearer {{token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Avatar\":\"11\",\r\n    \"Company\":\"Lislka\",\r\n    \"OriginBPFile\":\"asa\",\r\n    \"FormatBPFile\":\"aasa\",\r\n    \"ShowSecurityInfo\":true,\r\n    \"ProvinceId\":1,\r\n    \"ProvinceName\":\"浙江\",\r\n    \"CityId\":2,\r\n    \"CityName\":\"温州\",\r\n    \"AreaId\":3,\r\n    \"AreaName\":\"luchaneg\",\r\n    \"RegisterTime\":\"2019-08-12\",\r\n    \"Introduction\":\"test\",\r\n    \"FinPercentage\":\"20\",\r\n    \"FinStage\":\"A轮\",\r\n    \"FinMoney\":1,\r\n    \"Income\":1,\r\n    \"Revenue\":1,\r\n    \"Valuation\":1,\r\n    \"BrokerageOption\":\"test\",\r\n    \"OnPlatform\":true,\r\n    \"Tags\":\"test\",\r\n    \"Properties\":[\r\n        {\r\n            \"Key\":\"test\",\r\n            \"Text\":\"金融\",\r\n            \"Value\":\"证券\"\r\n        }\r\n    ],\r\n    \"VisibleRule\":{\r\n        \"Visible\":false,\r\n        \"Tags\":\"wahaha\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/project",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"project"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Recommend",
+			"item": [
+				{
+					"name": "获取用户下所有推荐项目",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "http://{{host}}/recommends",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"recommends"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
