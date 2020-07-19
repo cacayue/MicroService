@@ -7538,11 +7538,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Project\\Project.API\\Project.API.csproj",
+      "projectUniqueName": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Project\\Project.API\\Project.API.csproj",
       "projectName": "Project.API",
-      "projectPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Project\\Project.API\\Project.API.csproj",
+      "projectPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Project\\Project.API\\Project.API.csproj",
       "packagesPath": "C:\\Users\\cacayue\\.nuget\\packages\\",
-      "outputPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Project\\Project.API\\obj\\",
+      "outputPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Project\\Project.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cacayue\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7558,11 +7558,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Project\\Project.Domain\\Project.Domain.csproj": {
-              "projectPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Project\\Project.Domain\\Project.Domain.csproj"
+            "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Project\\Project.Domain\\Project.Domain.csproj": {
+              "projectPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Project\\Project.Domain\\Project.Domain.csproj"
             },
-            "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Project\\Project.Infrastructure\\Project.Infrastructure.csproj": {
-              "projectPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Project\\Project.Infrastructure\\Project.Infrastructure.csproj"
+            "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Project\\Project.Infrastructure\\Project.Infrastructure.csproj": {
+              "projectPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Project\\Project.Infrastructure\\Project.Infrastructure.csproj"
             }
           }
         }

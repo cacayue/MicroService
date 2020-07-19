@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Resilience.Http\\Resilience.Http.csproj": {}
+    "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Resilience.Http\\Resilience.Http.csproj": {}
   },
   "projects": {
-    "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Resilience.Http\\Resilience.Http.csproj": {
+    "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Resilience.Http\\Resilience.Http.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Resilience.Http\\Resilience.Http.csproj",
+        "projectUniqueName": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Resilience.Http\\Resilience.Http.csproj",
         "projectName": "Resilience.Http",
-        "projectPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Resilience.Http\\Resilience.Http.csproj",
+        "projectPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Resilience.Http\\Resilience.Http.csproj",
         "packagesPath": "C:\\Users\\cacayue\\.nuget\\packages\\",
-        "outputPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Resilience.Http\\obj\\",
+        "outputPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Resilience.Http\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cacayue\\AppData\\Roaming\\NuGet\\NuGet.Config",

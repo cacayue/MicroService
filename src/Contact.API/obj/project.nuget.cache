@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dMO12XvNt7PDLd8NWQru/Meb3L3MS0QtPW374ylKIDvcUtdPzT2aBScXiv49c25UFetxh1u8TWUNdzK1EKhcrA==",
+  "dgSpecHash": "NYL047cZx3DZMaoS5dsIxkMN5+Ue7skuUXtn6ib83OKLwZNjNlUTxteXgC2UlKuXe9Mfkf0RWS3PZ5TP1f0pSg==",
   "success": true,
-  "projectFilePath": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Contact.API\\Contact.API.csproj",
+  "projectFilePath": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Contact.API\\Contact.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cacayue\\.nuget\\packages\\consul\\0.7.2.6\\consul.0.7.2.6.nupkg.sha512",
     "C:\\Users\\cacayue\\.nuget\\packages\\dapper\\2.0.30\\dapper.2.0.30.nupkg.sha512",

@@ -1035,11 +1035,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\User.Identity\\User.Identity.csproj",
+      "projectUniqueName": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\User.Identity\\User.Identity.csproj",
       "projectName": "User.Identity",
-      "projectPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\User.Identity\\User.Identity.csproj",
+      "projectPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\User.Identity\\User.Identity.csproj",
       "packagesPath": "C:\\Users\\cacayue\\.nuget\\packages\\",
-      "outputPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\User.Identity\\obj\\",
+      "outputPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\User.Identity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cacayue\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1055,8 +1055,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Resilience.Http\\Resilience.Http.csproj": {
-              "projectPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Resilience.Http\\Resilience.Http.csproj"
+            "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Resilience.Http\\Resilience.Http.csproj": {
+              "projectPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Resilience.Http\\Resilience.Http.csproj"
             }
           }
         }

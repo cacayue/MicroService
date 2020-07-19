@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ycRAC/kHecsGgsxK6CIa9G5BTO+Pq/ullfYLDz4bjQ9rn8H6CjwRyNUKDCqTo6DTvY0xoh68JAX1CFaVkzmkTQ==",
+  "dgSpecHash": "cQ9iycXhv0/PEFgGOE0PcG3LyTSbrzQZEJoRxib3o0YZij6cl3onsN14Pmg3LT7YeLJnX8QOlQwN/Xuis28xgg==",
   "success": true,
-  "projectFilePath": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Recommends\\Recommends.API\\Recommends.API.csproj",
+  "projectFilePath": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Recommends\\Recommends.API\\Recommends.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cacayue\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\cacayue\\.nuget\\packages\\consul\\0.7.2.6\\consul.0.7.2.6.nupkg.sha512",

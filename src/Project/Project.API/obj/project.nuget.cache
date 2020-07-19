@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8DpjQt/W393SPj/QfGHBjX7qFnji7sejucm7ILyT9lDjvJcFnFPhfHWsOQ3G6R+rip8G0blLPo30teNx2oxU1A==",
+  "dgSpecHash": "lyIdQ2nunteNWV+G4W/G+1S4fV3La1C+vFiQDKrHqA6GuCOsu2srjBDTXhrTloul4JcZ8auLYNX9dwnuoxeMGA==",
   "success": true,
-  "projectFilePath": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Project\\Project.API\\Project.API.csproj",
+  "projectFilePath": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Project\\Project.API\\Project.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cacayue\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\cacayue\\.nuget\\packages\\consul\\1.6.1.1\\consul.1.6.1.1.nupkg.sha512",

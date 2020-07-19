@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hzLSWCl9qewVgskLJeaknOjZm29qKH0GuZUbNbkRMT/WH4jJYw6SZr/RsF6yvna+PxAKbZSW1lfuhr5Rnn9sng==",
+  "dgSpecHash": "QeqjH/AH84cmw2DAxAJ13mdN4stt1NBv39aJkvhPXfwWegNHc85oOW5hP2vsWpoNteg7pm9DGFcWXuZy8vas7A==",
   "success": true,
-  "projectFilePath": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Project\\Project.Domain\\Project.Domain.csproj",
+  "projectFilePath": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Project\\Project.Domain\\Project.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cacayue\\.nuget\\packages\\mediatr\\8.0.2\\mediatr.8.0.2.nupkg.sha512",
     "C:\\Users\\cacayue\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\8.0.1\\mediatr.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",

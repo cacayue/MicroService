@@ -924,11 +924,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Gateway.API\\Gateway.API.csproj",
+      "projectUniqueName": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Gateway.API\\Gateway.API.csproj",
       "projectName": "Gateway.API",
-      "projectPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Gateway.API\\Gateway.API.csproj",
+      "projectPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Gateway.API\\Gateway.API.csproj",
       "packagesPath": "C:\\Users\\cacayue\\.nuget\\packages\\",
-      "outputPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Gateway.API\\obj\\",
+      "outputPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Gateway.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cacayue\\AppData\\Roaming\\NuGet\\NuGet.Config",

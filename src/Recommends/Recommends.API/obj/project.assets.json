@@ -7766,11 +7766,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Recommends\\Recommends.API\\Recommends.API.csproj",
+      "projectUniqueName": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Recommends\\Recommends.API\\Recommends.API.csproj",
       "projectName": "Recommends.API",
-      "projectPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Recommends\\Recommends.API\\Recommends.API.csproj",
+      "projectPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Recommends\\Recommends.API\\Recommends.API.csproj",
       "packagesPath": "C:\\Users\\cacayue\\.nuget\\packages\\",
-      "outputPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Recommends\\Recommends.API\\obj\\",
+      "outputPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Recommends\\Recommends.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cacayue\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7786,8 +7786,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Resilience.Http\\Resilience.Http.csproj": {
-              "projectPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Resilience.Http\\Resilience.Http.csproj"
+            "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Resilience.Http\\Resilience.Http.csproj": {
+              "projectPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Resilience.Http\\Resilience.Http.csproj"
             }
           }
         }

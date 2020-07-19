@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/B1ifreX7WLKaSqYW4ZIkw8EXnZav4gS3hl1EqRokNx4TjKjqNwYcExUkMfqQWHJYTod4AQ7zIOxF9bAQWtsww==",
+  "dgSpecHash": "GvBxiK9Mwp0i+JJDM+Kv3twtmQDre1+SYVgFMLgKnnW4Oe5hy4D9sI8U6QKSA1mDx5+KwXB61QD8d547XW7KFQ==",
   "success": true,
-  "projectFilePath": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\User.Api.UnitTests\\User.Api.UnitTests.csproj",
+  "projectFilePath": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\User.Api.UnitTests\\User.Api.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cacayue\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\cacayue\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",

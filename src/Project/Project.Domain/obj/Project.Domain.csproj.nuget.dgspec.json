@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Project\\Project.Domain\\Project.Domain.csproj": {}
+    "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Project\\Project.Domain\\Project.Domain.csproj": {}
   },
   "projects": {
-    "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Project\\Project.Domain\\Project.Domain.csproj": {
+    "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Project\\Project.Domain\\Project.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Project\\Project.Domain\\Project.Domain.csproj",
+        "projectUniqueName": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Project\\Project.Domain\\Project.Domain.csproj",
         "projectName": "Project.Domain",
-        "projectPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Project\\Project.Domain\\Project.Domain.csproj",
+        "projectPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Project\\Project.Domain\\Project.Domain.csproj",
         "packagesPath": "C:\\Users\\cacayue\\.nuget\\packages\\",
-        "outputPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Project\\Project.Domain\\obj\\",
+        "outputPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Project\\Project.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cacayue\\AppData\\Roaming\\NuGet\\NuGet.Config",

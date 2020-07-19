@@ -744,11 +744,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Project\\Project.Infrastructure\\Project.Infrastructure.csproj",
+      "projectUniqueName": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Project\\Project.Infrastructure\\Project.Infrastructure.csproj",
       "projectName": "Project.Infrastructure",
-      "projectPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Project\\Project.Infrastructure\\Project.Infrastructure.csproj",
+      "projectPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Project\\Project.Infrastructure\\Project.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\cacayue\\.nuget\\packages\\",
-      "outputPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Project\\Project.Infrastructure\\obj\\",
+      "outputPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Project\\Project.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cacayue\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -764,8 +764,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Project\\Project.Domain\\Project.Domain.csproj": {
-              "projectPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Project\\Project.Domain\\Project.Domain.csproj"
+            "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Project\\Project.Domain\\Project.Domain.csproj": {
+              "projectPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Project\\Project.Domain\\Project.Domain.csproj"
             }
           }
         }

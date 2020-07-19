@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\User.Api.UnitTests\\User.Api.UnitTests.csproj": {}
+    "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\User.Api.UnitTests\\User.Api.UnitTests.csproj": {}
   },
   "projects": {
-    "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\User.Api.UnitTests\\User.Api.UnitTests.csproj": {
+    "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\User.Api.UnitTests\\User.Api.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\User.Api.UnitTests\\User.Api.UnitTests.csproj",
+        "projectUniqueName": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\User.Api.UnitTests\\User.Api.UnitTests.csproj",
         "projectName": "User.Api.UnitTests",
-        "projectPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\User.Api.UnitTests\\User.Api.UnitTests.csproj",
+        "projectPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\User.Api.UnitTests\\User.Api.UnitTests.csproj",
         "packagesPath": "C:\\Users\\cacayue\\.nuget\\packages\\",
-        "outputPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\User.Api.UnitTests\\obj\\",
+        "outputPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\User.Api.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cacayue\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\User.Api\\User.Api\\User.Api.csproj": {
-                "projectPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\User.Api\\User.Api\\User.Api.csproj"
+              "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\User.Api\\User.Api\\User.Api.csproj": {
+                "projectPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\User.Api\\User.Api\\User.Api.csproj"
               }
             }
           }
@@ -105,14 +105,14 @@
         }
       }
     },
-    "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\User.Api\\User.Api\\User.Api.csproj": {
+    "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\User.Api\\User.Api\\User.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\User.Api\\User.Api\\User.Api.csproj",
+        "projectUniqueName": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\User.Api\\User.Api\\User.Api.csproj",
         "projectName": "User.Api",
-        "projectPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\User.Api\\User.Api\\User.Api.csproj",
+        "projectPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\User.Api\\User.Api\\User.Api.csproj",
         "packagesPath": "C:\\Users\\cacayue\\.nuget\\packages\\",
-        "outputPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\User.Api\\User.Api\\obj\\",
+        "outputPath": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\User.Api\\User.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cacayue\\AppData\\Roaming\\NuGet\\NuGet.Config",

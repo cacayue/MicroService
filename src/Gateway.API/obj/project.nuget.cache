@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2hhuEEpRjsBI4siFgp4yltiRzC7v9PWLJ8t3lCMDPVal40YVwwV/KutxxaUPNKEjPG5+td4R3uLh/fMv15/tzg==",
+  "dgSpecHash": "C+GVa11kk68jWtDiKAQAv387Y+XoZRfVg2Le+6zqFYFZiY85x2fF/hwPyj4ZVM3i1xxTGjifjstPr0/veG/ueQ==",
   "success": true,
-  "projectFilePath": "F:\\exercise\\DoNetCore\\MicroService\\MicroServiceByDoNet\\Gateway.API\\Gateway.API.csproj",
+  "projectFilePath": "F:\\exercise\\DoNetCore\\MicroService\\MicroService\\src\\Gateway.API\\Gateway.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cacayue\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
     "C:\\Users\\cacayue\\.nuget\\packages\\identitymodel\\4.0.0\\identitymodel.4.0.0.nupkg.sha512",
